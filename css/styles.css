@@ -478,6 +478,7 @@ a {text-decoration: none;
     display: flex;
     flex-grow: 1;
     gap: 16px;
+    margin-top: 16px;
 }
 .social-media-items {
     width: 40px;
@@ -512,7 +513,7 @@ a {text-decoration: none;
     outline: transparent;
     height: 40px;
     width: 264px;
-    padding-left: 16px;
+    padding: 0 0 0 16px;
     color: var(--color-btn);
     transition: border-color var(--duration-time-function);
     
@@ -678,6 +679,7 @@ a {text-decoration: none;
     min-width: 408px;
     min-height: 576px;
     background-color: #FCFCFC;
+    border-radius: 4px;
     transform: translate(-50%, -50%) scale(1);
     transition: transform var(--duration-time-function) ;
 }
@@ -686,8 +688,8 @@ a {text-decoration: none;
 
 .modal-close-btn {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 22px;
+    right: 33px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -713,7 +715,7 @@ a {text-decoration: none;
 .modal-contant {
     display: flex;
     flex-direction: column;
-    padding: 70px 24px 26px 24px;
+    padding: 70px 33px 26px 19px;
 }
 
 .subtitle-modal {
@@ -766,7 +768,7 @@ a {text-decoration: none;
     display: block;
     width: 100%;
     min-height: 120px;
-    resize: vertical;
+    resize: none;
     margin: 0;
     outline: transparent;
     padding: 8px 16px;
