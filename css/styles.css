@@ -234,7 +234,7 @@ a {text-decoration: none;
     }
    .section.hero {
     
-    padding: 188px;
+    padding: 188px 0;
    }
 
   .slogan {
@@ -715,7 +715,7 @@ a {text-decoration: none;
 .modal-contant {
     display: flex;
     flex-direction: column;
-    padding: 70px 33px 26px 19px;
+    padding: 72px 24px 24px 24px;
 }
 
 .subtitle-modal {
@@ -729,8 +729,7 @@ a {text-decoration: none;
     width: 100%;
     height: 40px;
     outline: transparent;
-    margin-top: 4px;
-
+    
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 36px;
@@ -753,8 +752,10 @@ a {text-decoration: none;
 
 
 .modal-text-input {
+    display: block;
     font-size: 12px;
     color: var(--subtle-text);
+    margin-bottom: 4px;
 }
 .form-inut-decor {
     display: flex;
@@ -808,6 +809,7 @@ a {text-decoration: none;
     background-image: url(..//image/checkbox.svg);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
     transition: background-color var(--duration-time-function, border-color var(--duration-time-function));
 }
 
